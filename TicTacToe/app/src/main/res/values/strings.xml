@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="btnNewGame">New Game</string>
+    <string name="btnNewGameCPU">New Game vs CPU</string>
+    <string name="btnEasy">Easy</string>
+    <string name="btnNormal">Normal</string>
+    <string name="btnHard">Hard</string>
+    <string name="btnImpossible">Impossible</string>
+    <string name="title">Tic Tac Toe</string>
+    <string name="difficulty">Select Difficulty</string>
+    <string name="txtPlayer">Player:</string>
+    <string name="txtCPU">CPU:</string>
+</resources>
