@@ -1,8 +1,8 @@
-package marcus.tictactoe.gameplay;
+package marcus.threeinarow.gameplay;
 
 // Currently in progress, not currently being implemented
 public class TicTacToeAIImpossible extends TicTacToeAI {
-    protected int testBoardAI[][] = new int[3][3];
+    protected int [][] testBoardAI= {{0,0,0},{0,0,0},{0,0,0}};
 
     public TicTacToeAIImpossible() {
     }
@@ -20,7 +20,8 @@ public class TicTacToeAIImpossible extends TicTacToeAI {
         int score=-2;
 
         //now we have a copy of the gameboard
-        stupidArrayCopy(board,testBoardAI);
+        ArrayCopy(board,testBoardAI);
+        //System.arraycopy(board, testBoardAI);
         int testPlayer;
         if (player == 2) testPlayer=1;
         else testPlayer=-1;
@@ -32,6 +33,7 @@ public class TicTacToeAIImpossible extends TicTacToeAI {
                 int tempScore = -minimax(testBoardAI,testPlayer);
                 testBoardAI[i][j]=0;
                 if (tempScore>score){
+                    score = tempScore;
                     moveX=i;
                     moveY=j;
                 }

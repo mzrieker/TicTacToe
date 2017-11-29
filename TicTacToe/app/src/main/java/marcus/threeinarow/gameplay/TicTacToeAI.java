@@ -1,4 +1,4 @@
-package marcus.tictactoe.gameplay;
+package marcus.threeinarow.gameplay;
 
 /*
  * This class will control the AI, there are 3 AI difficulties
@@ -66,7 +66,7 @@ public class TicTacToeAI extends TicTacToe{
         else
             user = 1;
 
-        stupidArrayCopy(board,testBoard);
+        ArrayCopy(board,testBoard);
 
         //Check if the computer can win first
         for (moveX = 0; moveX<3;moveX++){
@@ -76,7 +76,7 @@ public class TicTacToeAI extends TicTacToe{
                     if (checkBoardDirections(testBoard))
                         return true;
                 }
-                stupidArrayCopy(board,testBoard);
+                ArrayCopy(board,testBoard);
 
             }
         }
@@ -89,7 +89,7 @@ public class TicTacToeAI extends TicTacToe{
                     if (checkBoardDirections(testBoard))
                         return true;
                 }
-                stupidArrayCopy(board,testBoard);
+                ArrayCopy(board,testBoard);
             }
         }
 
@@ -102,7 +102,7 @@ public class TicTacToeAI extends TicTacToe{
 
     }
 
-    protected void stupidArrayCopy(int [][] arraySrc,int [][] arrayDest){
+    protected void ArrayCopy(int [][] arraySrc, int [][] arrayDest){
         int x;
         for (int i=0;i<3;i++){
             for(int j=0;j<3;j++){

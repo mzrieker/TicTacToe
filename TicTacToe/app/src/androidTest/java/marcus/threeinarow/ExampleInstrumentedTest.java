@@ -1,4 +1,4 @@
-package marcus.tictactoe;
+package marcus.threeinarow;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

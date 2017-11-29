@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="marcus.tictactoe.DifficultySelectionScreen">
+    tools:context="marcus.threeinarow.DifficultySelectionScreen">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -53,6 +53,11 @@
             android:layout_height="wrap_content"
             android:text="@string/btnHard"
             android:id="@+id/btnHard" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Impossible"
+            android:id="@+id/btnImpossible" />
 
     </LinearLayout>
 </RelativeLayout>

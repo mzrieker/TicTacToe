@@ -1,4 +1,4 @@
-package marcus.tictactoe.gameplay;
+package marcus.threeinarow.gameplay;
 import java.util.Random;
 /**
  * Uses random number generator to pick random places on the board.

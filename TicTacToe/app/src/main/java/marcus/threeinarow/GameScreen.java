@@ -1,4 +1,4 @@
-package marcus.tictactoe;
+package marcus.threeinarow;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,13 +6,11 @@ import android.widget.Button;
 import android.widget.TextView;
 
 
-import marcus.tictactoe.R;
-
-import marcus.tictactoe.gameplay.TicTacToe;
-import marcus.tictactoe.gameplay.TicTacToeAIEasy;
-import marcus.tictactoe.gameplay.TicTacToeAIHard;
-import marcus.tictactoe.gameplay.TicTacToeAIImpossible;
-import marcus.tictactoe.gameplay.TicTacToeAINormal;
+import marcus.threeinarow.gameplay.TicTacToe;
+import marcus.threeinarow.gameplay.TicTacToeAIEasy;
+import marcus.threeinarow.gameplay.TicTacToeAIHard;
+import marcus.threeinarow.gameplay.TicTacToeAIImpossible;
+import marcus.threeinarow.gameplay.TicTacToeAINormal;
 
 public class GameScreen extends AppCompatActivity {
 

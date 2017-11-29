@@ -1,4 +1,4 @@
-package marcus.tictactoe.gameplay;
+package marcus.threeinarow.gameplay;
 import java.util.Random;
 
 public class TicTacToeAINormal extends TicTacToeAI{

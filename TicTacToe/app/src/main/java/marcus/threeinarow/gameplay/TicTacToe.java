@@ -1,8 +1,6 @@
-package marcus.tictactoe.gameplay;
+package marcus.threeinarow.gameplay;
 
-import android.widget.Toast;
-import android.content.Context;
-import marcus.tictactoe.GameScreen;
+import marcus.threeinarow.GameScreen;
 
 public class TicTacToe{
     //Context context = getApplicationContext;

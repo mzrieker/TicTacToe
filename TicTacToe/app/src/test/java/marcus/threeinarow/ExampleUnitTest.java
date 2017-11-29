@@ -1,4 +1,4 @@
-package marcus.tictactoe;
+package marcus.threeinarow;
 
 import org.junit.Test;
 
